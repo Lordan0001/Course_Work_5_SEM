@@ -1,0 +1,47 @@
+﻿<Albums>
+  <Album>
+    <Id>3</Id>
+    <albumAuthor>3Teeth</albumAuthor>
+    <albumName>Metawar, Shutdown.exe, 3Teeth </albumName>
+  </Album>
+  <Album>
+    <Id>4</Id>
+    <albumAuthor>Alestorm</albumAuthor>
+    <albumName>Seventh Rum of a Seventh Rum, Curse of the Crystal Coconut, No Grave But the Sea</albumName>
+  </Album>
+  <Album>
+    <Id>5</Id>
+    <albumAuthor>dsmack</albumAuthor>
+    <albumName>Lighting Up the Sky, When Legends Rise, 1000hp</albumName>
+  </Album>
+  <Album>
+    <Id>6</Id>
+    <albumAuthor>Marilyn Manson</albumAuthor>
+    <albumName>We Are Chaos, Heaven Upside Down, The Pale Emperor</albumName>
+  </Album>
+  <Album>
+    <Id>7</Id>
+    <albumAuthor>Metallica</albumAuthor>
+    <albumName>Death Magnetic, St. Anger, Reload</albumName>
+  </Album>
+  <Album>
+    <Id>8</Id>
+    <albumAuthor>Motorhead</albumAuthor>
+    <albumName>Bad Magic, Aftershock, The World Is Yours</albumName>
+  </Album>
+  <Album>
+    <Id>9</Id>
+    <albumAuthor>Ozzy Osbourne</albumAuthor>
+    <albumName>Patient Number 9, Ordinary Man, Scream</albumName>
+  </Album>
+  <Album>
+    <Id>10</Id>
+    <albumAuthor>Powerman 5000</albumAuthor>
+    <albumName>The Noble Rot, 	New Wave, Builders of the Future</albumName>
+  </Album>
+  <Album>
+    <Id>11</Id>
+    <albumAuthor>Rob Zombie</albumAuthor>
+    <albumName>The Lunar Injection Kool Aid Eclipse Conspiracy, The Electric Warlock, Venomous Rat Regeneration Vendor</albumName>
+  </Album>
+</Albums>

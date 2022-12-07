@@ -204,7 +204,7 @@ exec GetTickets;
 
 
 go
-create or alter procedure TicketsByCityName
+create or alter procedure GetTicketsByCityName
 @Name nvarchar(50)
 as begin
 begin try
