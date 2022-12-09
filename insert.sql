@@ -1,4 +1,4 @@
---Groups
+﻿--Groups
 INSERT Groups  ( bandName, bandDescription, bandStyle) VALUES ( N'3Teeth', N'3Teeth (stylized as 3TƎETH) is an American Industrial band from Los Angeles, California.', N'Industrial, industrial metal, industrial rock, alternative metal, electronic rock')
 INSERT Groups  ( bandName, bandDescription, bandStyle) VALUES ( N'Alestorm', N'Alestorm are a Scottish heavy metal band formed in Perth, Scotland.', N'Pirate metal, folk metal, power metal, heavy metal, hard rock')
 INSERT Groups  ( bandName, bandDescription, bandStyle) VALUES ( N'dsmack', N'dsmack is an American rock band from Lawrence, Massachusetts, formed in 1995.', N'Post-grunge, hard rock, nu metal, alternative metal, heavy metal')
@@ -67,3 +67,5 @@ VALUES('Bob','Vitebsk','Frunze 1',1,'2023-01-21')
 
 INSERT OrderedTickets(ticketUser,city,ticketPlace,ticketCount,ticketDate)
 VALUES('Sam','Mogilev','Pervomayskaya 7',1,'2023-02-11')
+
+

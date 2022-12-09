@@ -1,24 +1,27 @@
 use Course_Work;
---1. Регистрация и авторизация покупателей
+--1. Р РµРіРёСЃС‚СЂР°С†РёСЏ Рё Р°РІС‚РѕСЂРёР·Р°С†РёСЏ РїРѕРєСѓРїР°С‚РµР»РµР№
 
 exec AddUser 'Alex','123456','dfdjvkosd@mail.ru'
 Exec DeleteUserByUsername 'Alex'
 EXEC UpdateUsername 'Alex','Bruce'
 
---2.  Просмотр информации о фестивале в нужном городе
+Exec authorizationUser 'Vlad','admin'
+
+--2.  РџСЂРѕСЃРјРѕС‚СЂ РёРЅС„РѕСЂРјР°С†РёРё Рѕ С„РµСЃС‚РёРІР°Р»Рµ РІ РЅСѓР¶РЅРѕРј РіРѕСЂРѕРґРµ
 EXEC GetCityInfoByName 'Minsk'
 
---3. Бронирование билета
-EXEC OrderTicket 'Tom','Vitebsk','Frunze 1',5,'2023-01-21'
+--3. Р‘СЂРѕРЅРёСЂРѕРІР°РЅРёРµ Р±РёР»РµС‚Р°
+Exec OrderTicket 'Vlad','Minsk','Pritytskogo 62',2,'2023-01-01'
+Exec DeleteOrderedTicket 'Vlad'
 
---4. Добавление новых городов
+--4. Р”РѕР±Р°РІР»РµРЅРёРµ РЅРѕРІС‹С… РіРѕСЂРѕРґРѕРІ
 Exec AddCity 'zhanovichi','2024-01-01','zhanovichi 11',60
 Exec DeleteCity 'zhanovichi'
 
---5. Добавление новых исполнителей
+--5. Р”РѕР±Р°РІР»РµРЅРёРµ РЅРѕРІС‹С… РёСЃРїРѕР»РЅРёС‚РµР»РµР№
 EXEC AddBand 'Fever 333','Fever 333 is an American rock band formed in Inglewood, California, United States, in July 2017.',
 'Rap core, hardcore punk, rap metal, trap metal, rap rock, post-hardcore','Wrong generation,Made an America,Strength in Numb333rs'
 EXEC DeleteBand 'Fever 333'
 
---6. Просмотр списка групп
+--6. РџСЂРѕСЃРјРѕС‚СЂ СЃРїРёСЃРєР° РіСЂСѓРїРї
 EXEC GetBandInfo

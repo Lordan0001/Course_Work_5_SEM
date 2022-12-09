@@ -40,7 +40,3 @@ Create or ALTER VIEW UsersView  AS
 Select userName,userPassword,email from Users;
 
 select * from UsersView;
-
---Select Groups.bandName, Groups.bandStyle, Groups.bandDescription,Albums.albumName
---FROM Groups
---JOIN Albums ON Groups.bandName =  Albums.albumAuthor;
